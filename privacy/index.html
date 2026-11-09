@@ -34,6 +34,7 @@ ul{padding-left:20px}
 <ul>
 <li><b>Your account:</b> your name, email address and, if you use a password, a securely hashed version of it. If you sign in with Google, we receive your name, email address and profile picture from Google. We don't receive your Google password or access to anything else in your Google account.</li>
 <li><b>What you put in Folio:</b> briefs, comments, files and images you upload, ad names, and ad results you import (for example spend and return on ad spend from an Ads Manager export).</li>
+<li><b>Meta ad accounts you connect:</b> if you connect Meta, a Meta business admin chooses which ad accounts Folio can read. Folio receives an access token, which we store encrypted and use only to read ad results: ad names and IDs, campaign and ad set names, and daily spend, purchases, purchase value, impressions and clicks. We don't read anything else from your Meta account and we don't post or change ads.</li>
 <li><b>Share links:</b> when you open a brief someone shared with you, we record your name, email and when you opened it, so the person who shared it can see who has access.</li>
 <li><b>AI features:</b> when you choose an AI feature (such as drafting learnings or ways to iterate), the relevant brief and ad details are sent to our AI provider to produce the result. We count how many times you use AI features each day.</li>
 <li><b>Basic technical data:</b> information needed to keep you signed in and to keep the service secure, such as session tokens.</li>
@@ -51,7 +52,7 @@ ul{padding-left:20px}
 <ul>
 <li><b>Your team:</b> people the workspace owner adds to the team can see the team's briefs and results.</li>
 <li><b>People you share with:</b> anyone you send a share link to can, after signing in, view and comment on what that link covers.</li>
-<li><b>Service providers</b> that host and run Folio for us: Supabase (database, file storage and sign-in), GitHub (website hosting), Google (sign-in, if you choose it) and Anthropic (AI features, only when you use them). They may only use your information to provide their service to us.</li>
+<li><b>Service providers</b> that host and run Folio for us: Supabase (database, file storage and sign-in), GitHub (website hosting), Google (sign-in, if you choose it), Meta (ad results, only if you connect it) and Anthropic (AI features, only when you use them). They may only use your information to provide their service to us.</li>
 <li>Authorities, if the law requires it.</li>
 </ul>
 
@@ -63,6 +64,7 @@ ul{padding-left:20px}
 <li>You can change your name and photo in your profile at any time.</li>
 <li>You can ask us for a copy of your information, to correct it, or to delete your account.</li>
 <li>If you signed in with Google, you can remove Folio's access from your Google Account settings.</li>
+<li id="meta-data"><b>Deleting Meta data:</b> in Folio, go to Settings → Integrations and click Disconnect. That deletes the access token and the ad results Folio pulled from those accounts straight away (results already shown on your briefs stay unless you delete the briefs). You can also remove Folio from your Meta Business settings under Business integrations, or email us to delete everything.</li>
 </ul>
 
 <h2>Contact</h2>
