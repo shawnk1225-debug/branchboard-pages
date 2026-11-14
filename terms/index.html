@@ -1,13 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
+<script>try{var t=localStorage.getItem("folio:theme");if(t==="system")document.documentElement.removeAttribute("data-theme");else document.documentElement.setAttribute("data-theme",t==="dark"?"dark":"light")}catch(e){}</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Terms of Service · Folio</title>
 <link rel="icon" href="/favicon.svg">
 <style>
 :root{--bg:#fff;--ink:#111112;--muted:#64646b;--line:#e6e6e9;color-scheme:light}
-@media (prefers-color-scheme:dark){:root{--bg:#101011;--ink:#f1f1f2;--muted:#a2a2aa;--line:#2a2a2f;color-scheme:dark}}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101011;--ink:#f1f1f2;--muted:#a2a2aa;--line:#2a2a2f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#101011;--ink:#f1f1f2;--muted:#a2a2aa;--line:#2a2a2f;color-scheme:dark}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
 .wrap{max-width:720px;margin:0 auto;padding:32px max(20px,env(safe-area-inset-left,0px)) 80px}
