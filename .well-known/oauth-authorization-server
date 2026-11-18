@@ -1,0 +1,31 @@
+{
+ "issuer": "https://folio-app.co",
+ "authorization_endpoint": "https://dlymhheyxypuekhiidts.supabase.co/functions/v1/branchboard-api/oauth/authorize",
+ "token_endpoint": "https://dlymhheyxypuekhiidts.supabase.co/functions/v1/branchboard-api/oauth/token",
+ "registration_endpoint": "https://dlymhheyxypuekhiidts.supabase.co/functions/v1/branchboard-api/oauth/register",
+ "revocation_endpoint": "https://dlymhheyxypuekhiidts.supabase.co/functions/v1/branchboard-api/oauth/revoke",
+ "scopes_supported": [
+  "folio"
+ ],
+ "response_types_supported": [
+  "code"
+ ],
+ "response_modes_supported": [
+  "query"
+ ],
+ "grant_types_supported": [
+  "authorization_code",
+  "refresh_token"
+ ],
+ "token_endpoint_auth_methods_supported": [
+  "none"
+ ],
+ "revocation_endpoint_auth_methods_supported": [
+  "none"
+ ],
+ "code_challenge_methods_supported": [
+  "S256"
+ ],
+ "authorization_response_iss_parameter_supported": true,
+ "service_documentation": "https://folio-app.co/#/settings/integrations"
+}
