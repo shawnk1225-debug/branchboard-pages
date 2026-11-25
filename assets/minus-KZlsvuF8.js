@@ -1,0 +1,1 @@
+import{$ as e}from"./workspace-identity-Btk8fZ5b.js";var t=e(`minus`,[[`path`,{d:`M5 12h14`,key:`1ays0h`}]]);export{t};
