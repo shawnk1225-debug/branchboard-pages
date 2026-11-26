@@ -1,0 +1,1 @@
+import{at as e}from"./workspace-identity-CCOUiJ09.js";var t=e(`minus`,[[`path`,{d:`M5 12h14`,key:`1ays0h`}]]);export{t};
